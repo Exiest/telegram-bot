@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node ./build/bot.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/mongoose": "^5.7.11",
+    "@types/node-telegram-bot-api": "^0.40.3",
+    "busboy-body-parser": "^0.3.2",
+    "cloudinary": "^1.21.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "mongoose": "^5.9.9",
+    "node-telegram-bot-api": "^0.40.0",
+    "ts-mongoose": "0.0.21",
+    "typescript": "^3.9.0-beta"
+  }
+}
